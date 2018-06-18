@@ -105,6 +105,11 @@ margin: 2% 25% 2% 25%;
   border-color: #f16334;
 }
 
+a {
+    display: contents;
+    text-decoration: none;
+}
+
 @media (max-width: 768px) {
   #tutorialNav, #whoNav, #homeNav {
     padding: 4% 4% 4% 4%;
