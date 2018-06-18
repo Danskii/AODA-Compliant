@@ -71,26 +71,7 @@ margin: 2% 25% 2% 25%;
   color: #F16332;
   border-color: #f16334;
 }
-#chooseYourDestiny {
-  float: right;
-  width: 45%;
-  text-align: center;
-  padding: .9% .9% .9% .9%;
-  background: #f16334;
-  color: white;
-  transition: all 0.3s linear;
-  border-right: 1px solid;
-  text-transform: uppercase;
-  font-weight: 700;
-  border: solid 1px;
-  cursor: pointer;
-}
-#chooseYourDestiny:hover {
-  transition: all 0.3s linear;
-  background: white;
-  color: #F16332;
-  border-color: #f16334;
-}
+
 .topNavMenu {
   list-style: none;
   width: 100%;
@@ -99,7 +80,10 @@ margin: 2% 25% 2% 25%;
   padding: 0;
   text-align: center;
 }
-#homeNav {
+#homeNav,
+#tutorialNav,
+#whoNav
+ {
   width: 33%;
   background: #f16334;
   color: white;
@@ -111,47 +95,16 @@ margin: 2% 25% 2% 25%;
   border: solid 1px;
   cursor: pointer;
 }
-#homeNav:hover {
+#homeNav:hover,
+#tutorialNav:hover,
+#whoNav:hover
+ {
   transition: all 0.3s linear;
   background: white;
   color: #F16332;
   border-color: #f16334;
 }
-#tutorialNav {
-  width: 33%;
-  background: #f16334;
-  color: white;
-  padding: .9% .9% .9% .9%;
-  border-right: 1px solid;
-  text-transform: uppercase;
-  font-weight: 700;
-  border: solid 1px;
-  cursor: pointer;
-}
-#tutorialNav:hover {
-  transition: all 0.3s linear;
-  background: white;
-  color: black;
-  color: #F16332;
-  border-color: #f16334;
-}
-#whoNav {
-  width: 33%;
-  background: #f16334;
-  color: white;
-  padding: .9% .9% .9% .9%;
-  text-transform: uppercase;
-  font-weight: 700;
-  border: solid 1px;
-  cursor: pointer;
-}
-#whoNav:hover {
-  transition: all 0.3s linear;
-  background: white;
-  color: black;
-  color: #F16332;
-  border-color: #f16334;
-}
+
 @media (max-width: 768px) {
   #tutorialNav, #whoNav, #homeNav {
     padding: 4% 4% 4% 4%;
