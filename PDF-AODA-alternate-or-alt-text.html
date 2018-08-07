@@ -55,17 +55,37 @@ ga('send', 'pageview');
 
 <!-- end autotracking + google analytics script -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Alternate Alt Text</title>
-	<link href="stylesheet.css" rel="stylesheet" />
+	<title>Alternate Alt Text</title><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<link href="stylesheet.css" rel="stylesheet" />
 </head>
-<body>
+<body>    
 <nav>
-<ul class="topNavMenu">
-    <a href="index.html"><li id="homeNav">Home</li></a>
-    <a href="PDF-AODA-compliance-frequently-asked-questions.html"><li id="tutorialNav">FAQ</li></a>
-    <a href="PDF-AODA-need-help.html"><li id="whoNav">Questions?</li></a>
-</ul>
-</nav>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sections</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-configuring-Adobe.html">Configuring Adobe</a>
+                    <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-title-author-language.html">Title, Author and Language</a>
+                    <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-reading-order.html">Reading Order</a>
+                      <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-alternate-or-alt-text.html">Alternate Text</a>
+                       <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-marking-artifacts.html">Marking Artifacts</a>
+                        <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-build-heading-structure.html">Building Heading Structure</a>
+                           <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-run-accessibility-check.html">Running the Accessibility Check</a>
+
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="PDF-AODA-compliance-frequently-asked-questions.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="PDF-AODA-need-help.html">Need Help?</a>
+            </li>
+
+        </ul>
+    </nav>
 
 <h1 id="partThreeHeadingOne">Part 4: Alternate Text</h1>
 
@@ -78,16 +98,16 @@ ga('send', 'pageview');
 <ol>
 	<li>Click on the Accessibility shortcut in the right hand panel</li>
 	<li>Click on reading order</li>
-	<img alt="" src="/images/Reading-Order-5.png" style="width: 900px; height: 480px;" /> 
-	<img alt="" src="/images/Reading-Order-5b.png" style="width: 900px; height: 480px;" />	
+	<img class="mx-auto d-block" alt="" src="/images/Reading-Order-5.png" style="width: 900px; height: 480px;" /> 
+	<img class="mx-auto d-block" alt="" src="/images/Reading-Order-5b.png" style="width: 900px; height: 480px;" />	
 	<li>Open the tags tree on the left hand side</li>
-	<img alt="" src="/images/Reading-Order-11.png" style="width: 900px; height: 480px;" />
+	<img class="mx-auto d-block" alt="" src="/images/Reading-Order-11.png" style="width: 900px; height: 480px;" />
 	<li>Begin moving through the tags tree untill you arrive at a figure tag.</li>
-	<img alt="" src="/images/Alternate-Text-1.png" style="width: 900px; height: 480px;" />
+	<img class="mx-auto d-block" alt="" src="/images/Alternate-Text-1.png" style="width: 900px; height: 480px;" />
 	<li>Right click on the figure tag and select "Properties"</li>
-	<img alt="" src="/images/Alternate-Text-2.png" style="width: 900px; height: 480px;" />
+	<img class="mx-auto d-block" alt="" src="/images/Alternate-Text-2.png" style="width: 900px; height: 480px;" />
 	<li>Fill in the Alternate text and click OK when complete</li>
-	<img alt="" src="/images/Alternate-Text-3.png" style="width: 900px; height: 480px;" />
+	<img class="mx-auto d-block" alt="" src="/images/Alternate-Text-3.png" style="width: 900px; height: 480px;" />
 	<li>Continue through all of the figure tags in your document, adding alternate text to each</li>
 </ol>
 
@@ -95,6 +115,9 @@ ga('send', 'pageview');
 
 <p id="nextSection">Ok, that&#39;s it for this section.</p>
 
-<a class="linkStyle" href="./PDF-AODA-marking-artifacts.html"><div id="continueTheJourney">Proceed &rarr;</div></a>
+<a class="linkStyle" href="./PDF-AODA-marking-artifacts.html"><button type="button" class="btn btn-primary btn-lg btn-block">Proceed &rarr;</button></a>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 </body>
 </html>

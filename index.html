@@ -58,15 +58,35 @@ ga('send', 'pageview');
 
 <!-- end autotracking + google analytics script -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Making PDFs AODA Compliant with Adobe Acrobat</title>
-	<link href="stylesheet.css" rel="stylesheet" />
+	<title>Making PDFs AODA Compliant with Adobe Acrobat</title><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<link href="stylesheet.css" rel="stylesheet" />
 </head>
-<body>
-    <nav>
-        <ul class="topNavMenu">
-            <a href="index.html"><li id="homeNav">Home</li></a>
-            <a href="PDF-AODA-compliance-frequently-asked-questions.html"><li id="tutorialNav">FAQ</li></a>
-            <a href="PDF-AODA-need-help.html"><li id="whoNav">Questions?</li></a>
+<body>    
+<nav>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sections</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-configuring-Adobe.html">Configuring Adobe</a>
+                    <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-title-author-language.html">Title, Author and Language</a>
+                    <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-reading-order.html">Reading Order</a>
+                      <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-alternate-or-alt-text.html">Alternate Text</a>
+                       <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-marking-artifacts.html">Marking Artifacts</a>
+                        <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-build-heading-structure.html">Building Heading Structure</a>
+                           <a class="dropdown-item" href="http://localhost:63667/PDF-AODA-run-accessibility-check.html">Running the Accessibility Check</a>
+
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="PDF-AODA-compliance-frequently-asked-questions.html">FAQ</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="PDF-AODA-need-help.html">Need Help?</a>
+            </li>
+
         </ul>
     </nav>
     <h1 id="welcomeHeading">Making PDFs AODA Compliant with Adobe Acrobat</h1>
@@ -91,6 +111,11 @@ ga('send', 'pageview');
     <p>The end goal of this guide is to ensure your PDF passes the technical requirements for Adobe&#39;s Accessibility Check.</p>
     <p>After you complete the section simply scroll down to the bottom of the page and click proceed to move to the next step.</p>
     <p>So, without further ado, let&#39;s begin</p>
-    <a class="linkStyle" href="./PDF-AODA-configuring-Adobe.html"><div id="continueTheJourney">Proceed &rarr;</div></a>
+    <a class="linkStyle" href="./PDF-AODA-configuring-Adobe.html"><button type="button" class="btn btn-primary btn-lg btn-block">Proceed &rarr;</button></a>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 </body>
 </html>
