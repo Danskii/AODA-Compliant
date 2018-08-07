@@ -30,7 +30,8 @@ p
 }
 
 img {
-        box-shadow: 1px 1px 1px 1px;
+        box-shadow: 1px 1px 4px 2px;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
