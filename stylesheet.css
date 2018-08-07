@@ -17,7 +17,7 @@ h5  {
      margin-top: 2rem;
 }
 
-p
+p,
  {
     margin-left: 4rem;
     margin-right: 4rem;
@@ -33,5 +33,11 @@ img {
         box-shadow: 1px 1px 4px 2px;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+ol,
+ul
+ {
+    list-style-position: inside;
 }
 
