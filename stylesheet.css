@@ -32,7 +32,8 @@ color: #484848;
 margin: 2% 25% 2% 25%;
 }
 
-p {
+p,
+blockquote {
 margin: 2% 25% 2% 25%;
   font-size: 1.3em;
   line-height: 1.7em;
