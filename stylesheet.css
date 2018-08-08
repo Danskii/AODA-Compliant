@@ -1,43 +1,46 @@
 body {
     font-size: 1.5rem;
-    margin: 1rem;
-}
-
-nav
-{
-    margin-bottom: 2rem;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5  {
-     margin-bottom: 2rem;
-     margin-top: 2rem;
-}
-
-p,
- {
-    margin-left: 4rem;
-    margin-right: 4rem;
-}
-
-
-
-.nextSection {
-        text-align: center;
-}
-
-img {
-        box-shadow: 1px 1px 4px 2px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 2%;
 }
 
 ol,
 ul
  {
     list-style-position: inside;
+
 }
 
+.nextSection {
+text-align: center;
+}
+
+img {
+box-shadow: 1px 1px 4px 2px;
+margin-top: 2rem;
+margin-bottom: 2rem;
+height: auto;
+}
+
+#mainContentWrapper {
+    margin: 2% 10% 0 10%;
+}
+
+p {
+    margin: 2% 15% 2% 15%;
+    line-height: 2.5rem;
+}
+
+.orderedList,
+.unorderedList {
+    margin: 2% 15% 2% 13%;
+    line-height: 2.5rem;
+}
+
+.orderedList > li,
+.unorderedList > li {
+    margin: 2% 0 2% 0;
+}
+
+nav {
+    margin: 1%;
+}
